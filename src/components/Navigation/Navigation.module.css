@@ -1,0 +1,27 @@
+.header {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px;
+z-index: 10;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: #EAE2F8;
+}
+
+
+.menu {
+display: flex;
+gap: 20px;
+
+}
+.buildLinkClass {
+    color: #4A148C;
+    font-size: 25px;
+   
+}
+.active {
+    text-decoration: underline;
+    color:#512DA8;
+    font-weight: 700;
+}
